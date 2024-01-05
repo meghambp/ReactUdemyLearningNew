@@ -7,20 +7,20 @@ import './App.css';
 
 export default function App() {
 
-  const[count,setCount]= useState(0);
- 
+  const [count, setCount] = useState(0);
 
-  function handleAdd(){
-    setCount(count=>count+1);
-    setCount(count=>count+1);
+
+  function handleAdd() {
+    setCount(count => count + 1);
+    setCount(count => count + 1);
   }
-  function handleSub(){
-    setCount(count-1);
+  function handleSub() {
+    setCount(count - 1);
   }
 
-  return  (
+  return (
     <div className='App'>
-      <Header/>
+      <Header />
       <div className='box'>
         <p>{count}</p>
         <button onClick={handleAdd} className='add'>ADD</button>
@@ -28,7 +28,7 @@ export default function App() {
       </div>
       <h1>Hello World!</h1>
       <TaskList />
-      <Footer/>
+      <Footer />
     </div>
   )
 }
