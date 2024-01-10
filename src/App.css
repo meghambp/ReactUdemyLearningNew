@@ -1,64 +1,8 @@
-.App {
+.App{
   text-align: center;
+  padding: 0px 10px;
 }
 
-.box {
-  max-width: 200px;
-  margin: 50px auto;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  padding: 10px;
-}
-
-p {
-  margin-top: 20px;
-  font-size: 24px;
-  text-align: center;
-}
-
-button {
-  padding: 10px;
-  margin: 20px 10px;
-  font-size: 16px;
-  color: #FFFFFF;
-  border: 0px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button.add {
-  background-color: #18978F;
-}
-
-button.sub {
-  background-color: var(--theme-border);
-}
-
-button.reset {
-  background-color: #0F3460;
-}
-
-a {
-  text-decoration: none;
-  color: #000000;
-}
-
-ul {
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-
-button.trigger {
-  border: 0px;
-  border-radius: 5px;
-  background-color: #0F3460;
-  color: #FFFFFF;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.hidden {
+.hidden{
   display: none;
 }
